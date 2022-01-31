@@ -1,12 +1,20 @@
 {
-  "name": "jsprofesional",
+  "name": "jsprofesional-media-player",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto de jsProfesional de Platzi",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "jsprofesional",
+    "platzi"
+  ],
+  "author": "WAGuicha <williamalberto1@hotmail.com",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+ 
+
 }
